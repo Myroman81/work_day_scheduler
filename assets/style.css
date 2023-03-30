@@ -5,7 +5,8 @@ body {
 }
 
 textarea {
-    background: grey;
+  /*  background: grey; */
+    background: transparent;
     border: none;
     resize: none;
     color: #000000;
