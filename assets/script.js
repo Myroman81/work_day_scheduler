@@ -18,8 +18,8 @@
 var today = new Date();
 var now = dayjs();
 console.log("Date: ", today);
-console.log("Day Date: ", now.format('dddd MMM DD h:mm'));
-document.getElementById('currentDay').textContent = now.format('dddd MMM h:mm a');
+console.log("Day Date: ", now.format('dddd, MMMM D, YYYY h:mm'));
+document.getElementById('currentDay').textContent = now.format('dddd, MMMM D, YYYY h:mm a');
 
 
 $(document).ready(function () {
@@ -69,9 +69,45 @@ $(document).ready(function () {
         })
     }
 
+    var eightAM = localStorage.getItem('hour-8');
+    $('#hour-8 .description').val(localStorage.getItem('hour-8'));
+    console.log("Saved Data: ", eightAM);
+
+    var nineAM = localStorage.getItem('hour-9');
+    $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+    console.log("Saved Data: ", nineAM);
+
     var tenAM = localStorage.getItem('hour-10');
     $('#hour-10 .description').val(localStorage.getItem('hour-10'));
     console.log("Saved Data: ", tenAM);
+
+    var elevenAM = localStorage.getItem('hour-11');
+    $('#hour-11 .description').val(localStorage.getItem('hour-11'));
+    console.log("Saved Data: ", elevenAM);
+
+    var twelvePM = localStorage.getItem('hour-12');
+    $('#hour-12 .description').val(localStorage.getItem('hour-12'));
+    console.log("Saved Data: ", twelvePM);
+
+    var onePM = localStorage.getItem('hour-13');
+    $('#hour-13 .description').val(localStorage.getItem('hour-13'));
+    console.log("Saved Data: ", onePM);
+
+    var twoPM = localStorage.getItem('hour-14');
+    $('#hour-14 .description').val(localStorage.getItem('hour-14'));
+    console.log("Saved Data: ", twoPM);
+
+    var threePM = localStorage.getItem('hour-15');
+    $('#hour-15 .description').val(localStorage.getItem('hour-15'));
+    console.log("Saved Data: ", threePM);
+
+    var fourPM = localStorage.getItem('hour-16');
+    $('#hour-16 .description').val(localStorage.getItem('hour-16'));
+    console.log("Saved Data: ", fourPM);
+
+    var fivePM = localStorage.getItem('hour-17');
+    $('#hour-17 .description').val(localStorage.getItem('hour-17'));
+    console.log("Saved Data: ", fivePM);
 
     
 
