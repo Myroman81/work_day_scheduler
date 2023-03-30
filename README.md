@@ -1,3 +1,4 @@
+<img width="1188" alt="WorkSchedulerSS" src="https://user-images.githubusercontent.com/125937929/228986899-f538603f-5223-4fa6-bccc-bae38f53feec.png">
 # <work_day_scheduler>
 
 ##  For this challenge we were tasked with polishing a work day scheduler.  The goals were to give it an updated header with operating calendar listing, an interactive main section that alerted to current, past, and future appointments, and a local storage section that documented and saved anything displayed in the text area.  I was pretty happy with how this turned out so far and will use that as motivation to hopefully keep up this level of work moving forward in the course.  I was once again helped by my instructor Leif Hetland, the TA Fred Kamm, my classmates, and my tutor Erik Hoversten.  
